@@ -6,16 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('PONG!');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'bing') {
-    	message.reply('BONG!');
+    if (message.content === 'credits') {
+    	message.channel.send('Trisha');
   	}
 });
 
 // THIS  MUST  BE  THIS  WAY
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.NDU3MTE3NzEwNTY0NzIwNjUw.DgUfzQ.YpHZTEplikSIujudUrT85yvgyuc);

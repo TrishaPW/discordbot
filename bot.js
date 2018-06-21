@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === '!bilgi') {
-    	message.channel.send(BOT_TEXT);
+    	message.channel.send(process.env.BOT_TEXT);
   	}
 });
 

@@ -6,14 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'site') {
-    	message.channel.send('https://retro-rp.com');
-  	}
-});
-
-client.on('message', message => {
-    if (message.content === 'credits') {
-    	message.reply('Trisha');
+    if (message.content === '!bilgi') {
+    	message.channel.send(BOT_TEXT);
   	}
 });
 
